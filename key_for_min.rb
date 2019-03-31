@@ -12,11 +12,8 @@ def key_for_min_value(name_hash)
       current_value = value
       current_key = item
     else
-      return
+      continue
     end
   end
   return current_key
-
-
-
 end
